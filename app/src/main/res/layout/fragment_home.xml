@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MENU.HomeFragment">
+
+    <TextView
+        android:id="@+id/textHome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="21dp"
+        android:gravity="center"
+        android:text="@string/home"
+        android:textColor="@color/navbar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="28dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHome">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card1"
+            android:layout_width="182dp"
+            android:layout_height="188dp"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="179dp"
+                android:layout_height="173dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="15dp"
+                    android:src="@drawable/areen_logo" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/navbar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="What is physiotherapy ?"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/navbar"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            android:layout_width="173dp"
+            android:layout_height="178dp"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="158dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="15dp"
+                    android:src="@drawable/areen_logo" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/navbar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="asdsadsadsa"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/navbar"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutq"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="138dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card3"
+            android:layout_width="182dp"
+            android:layout_height="188dp"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="179dp"
+                android:layout_height="173dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="15dp"
+                    android:src="@drawable/areen_logo" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/navbar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="What is physiotherapy ?"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/navbar"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card4"
+            android:layout_width="173dp"
+            android:layout_height="178dp"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="158dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="15dp"
+                    android:src="@drawable/areen_logo" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/navbar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="asdsadsadsa"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/navbar"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
